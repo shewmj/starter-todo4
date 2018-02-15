@@ -37,4 +37,5 @@ class Application extends CI_Controller
 	    $this->parser->parse($template, $this->data);
 	}
 
+
 }
