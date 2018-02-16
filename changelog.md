@@ -7,9 +7,29 @@ Team membership:  MS-Matthew Shew (Captain), JC-John Tee (teammate)
 * Changelog Format: Read from newest to oldest
 
 
-## [0.0.2] - 2018-02-15 -JC
+## [1.0.0] - 2018-02-15 -MS
+### Added
+- controller for help wanted page
+- controller for maintenance page
+- Parsedown.php from shared repo
+- itemlist view
+- oneitem view
+- help wanted job listing
+
+### Edited
+- added parsedown to autoload libraries
+- changed link routes
+- simplified homepage.php
+
+## [0.0.3] - 2018-02-15 -JC
 ### Added
 - Tasks by priority and tasks by category views and controller.
+- view for template_secondary.php
+- view for by_category.php
+- view for by_priority.php
+- controller for views.php
+
+
 
 ## [0.0.2] - 2018-02-15 -MS
 ### Edited
