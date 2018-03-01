@@ -6,6 +6,10 @@ Team membership:  MS-Matthew Shew (Captain), JC-John Tee (teammate)
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+## [1.0.3] - 2018-03-01 JC
+### Added
+- Checkboxes for Maintenance page to complete jobs
+
 ## [1.0.2] - 2018-03-01 MS
 ### Added
 - User roles (simple version)
