@@ -36,15 +36,15 @@ class Welcome extends Application
 			$task->priority = $this->app->priority($task->priority);
 		    $display_tasks[] = (array) $task;
 		    $count++;
-		    if ($count >= 5) 
+		    if ($count >= 5)
 		    	break;
 		}
 
 
-		
+
 		$this->data['display_tasks'] = $display_tasks;
 		$this->data['pagebody'] = 'homepage';
-		$this->render(); 
+		$this->render();
 	}
 
 }
