@@ -7,6 +7,46 @@ Team membership:  MS-Matthew Shew (Captain), JC-John Tee (teammate)
 * Changelog Format: Read from newest to oldest
 
 [Released]
+## [2.0.0] - 2018-02-15 -JC
+### Edited
+- ready for release
+
+## [1.0.6] - 2018-03-01 JC
+### Added
+- Added size, group and status fields to Task item maintenance.
+
+## [1.0.5] - 2018-03-01 JC
+### Added
+- Added add task
+- Added edit task
+- Added delete task
+
+## [1.0.4] - 2018-03-01 MS
+### Added
+- oneitemx.php
+- add item button
+
+
+## [1.0.3] - 2018-03-01 JC
+### Added
+- Checkboxes for Maintenance page to complete jobs
+
+## [1.0.2] - 2018-03-01 MS
+### Added
+- User roles (simple version)
+
+### Edited
+- autoload.php autoloads session library
+- added roles to navbar
+
+## [1.0.1] - 2018-03-01 JC
+### Added
+- Pagination navigation
+
+### Edited
+- Maintenance page to only show 10 items per page
+
+[Released]
 ## [1.0.0] - 2018-02-15 -MS
 ### Edited
 - ready for release
