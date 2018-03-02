@@ -6,6 +6,20 @@ Team membership:  MS-Matthew Shew (Captain), JC-John Tee (teammate)
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+[Released]
+## [2.0.0] - 2018-02-15 -JC
+### Edited
+- ready for release
+
+## [1.0.6] - 2018-03-01 JC
+### Added
+- Added size, group and status fields to Task item maintenance.
+
+## [1.0.5] - 2018-03-01 JC
+### Added
+- Added add task
+- Added edit task
+- Added delete task
 
 ## [1.0.4] - 2018-03-01 MS
 ### Added
