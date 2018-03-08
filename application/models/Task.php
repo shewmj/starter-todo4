@@ -73,4 +73,4 @@ class Task extends Entity {
     public function getGroup() {
         return $this->group;
     }
-} 
+}

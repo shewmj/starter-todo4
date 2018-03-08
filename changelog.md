@@ -6,6 +6,16 @@ Team membership:  MS-Matthew Shew (Captain), JC-John Tee (teammate)
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+[Released]
+## [3.0.0] - 2018-02-15 -JC
+### Edited
+- ready for release
+
+## [2.0.3] - 2018-03-01 JC
+### Added
+- Added TaskListTest.php
+- Added travis CI.
+
 ## [2.0.2] - 2018-03-01 MS
 ### Added
 - Added phpunit.xml
