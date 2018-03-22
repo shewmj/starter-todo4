@@ -1,15 +1,20 @@
 <?php
-class Tasks extends CSV_Model {
+class Tasks extends XML_Model {
+
+    private $CI; // use this to reference the CI instance
+
 
     public function __construct()
     {
-        parent::__construct(APPPATH . '../data/tasks.csv', 'id');
+        parent::__construct(APPPATH . '../data/tasks.xml', 'id');
+        $this->CI = &get_instance(); // retrieve the CI instance
     }
 
 
 
     function getCategorizedTasks()
     {
+
         // extract the undone tasks
         foreach ($this->all() as $task)
         {
@@ -19,7 +24,7 @@ class Tasks extends CSV_Model {
 
         // substitute the category name, for sorting
         foreach ($undone as $task)
-        $task->group = $this->app->group($task->group);
+        $task->group = $this->CI->app->group($task->group); // use CI to get at the app model
 
         // order them by category
         usort($undone, array("tasks", "orderByCategory"));
@@ -46,7 +51,7 @@ class Tasks extends CSV_Model {
     public function rules()
     {
         $config = array(
-            ['field' => 'task', 'label' => 'TODO task', 'rules' => 'alpha_numeric_spaces|max_length[64]'],
+            ['field' => 'name', 'label' => 'TODO task', 'rules' => 'alpha_numeric_spaces|max_length[64]'],
             ['field' => 'priority', 'label' => 'Priority', 'rules' => 'integer|less_than[4]'],
             ['field' => 'size', 'label' => 'Task size', 'rules' => 'integer|less_than[4]'],
             ['field' => 'group', 'label' => 'Task group', 'rules' => 'integer|less_than[5]'],
