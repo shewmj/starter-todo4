@@ -6,8 +6,15 @@ Team membership:  MS-Matthew Shew (Captain), JC-John Tee (teammate)
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+## [4.0.0] - 2018-03-22 -JC
+### Added
+- Ready for release
 
-## [3.0.1] - 2018-03-22 -MS
+## [3.0.3] - 2018-03-22 -JC
+### Added
+- added storing and loading
+
+## [3.0.2] - 2018-03-22 -MS
 ### Edited
 - changed to pull from xml file instead of csv
 - updated variable names to corespond to xml format
