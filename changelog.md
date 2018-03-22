@@ -14,13 +14,14 @@ Team membership:  MS-Matthew Shew (Captain), JC-John Tee (teammate)
 ### Added
 - added storing and loading
 
-## [3.0.2] - 2018-03-2 -MS
+## [3.0.2] - 2018-03-22 -MS
 ### Edited
-- change to pull from xml to csv
+- changed to pull from xml file instead of csv
+- updated variable names to corespond to xml format
 
 ## [3.0.1] - 2018-03-22 -JC
 ### Added
-- added xml
+- added xml data file
 
 [Released]
 ## [3.0.0] - 2018-02-15 -JC
